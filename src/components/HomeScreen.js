@@ -27,8 +27,8 @@ const HomeScreen = () => {
                   className="nav-item"
                   style={{ marginLeft: "8rem", marginRight: "2rem" }}
                 >
-                  <a className="nav-link active" href="#other">
-                    others
+                  <a className="nav-link active" href="#necklace">
+                    Necklaces
                     <span className="visually-hidden">(current)</span>
                   </a>
                 </li>
@@ -60,13 +60,13 @@ const HomeScreen = () => {
       <Container className="py-3 my-4">
         <Row>
           <strong>
-            <h2 className="mt-2 mb-4">others</h2>
+            <h2 className="mt-2 mb-4">Necklaces</h2>
           </strong>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="other" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="necklace" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -83,9 +83,9 @@ const HomeScreen = () => {
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="other" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="necklace" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -102,9 +102,9 @@ const HomeScreen = () => {
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="ring" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -121,9 +121,9 @@ const HomeScreen = () => {
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="ring" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -148,7 +148,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\ring.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -167,7 +167,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\ring.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -186,7 +186,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\ring.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -212,7 +212,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -231,7 +231,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -250,7 +250,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -269,7 +269,7 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -293,9 +293,9 @@ const HomeScreen = () => {
         <Row>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="access" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="access" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -312,9 +312,9 @@ const HomeScreen = () => {
           </Col>{" "}
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="access" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="access" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,
@@ -331,9 +331,9 @@ const HomeScreen = () => {
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\other.jpg" id="access" />
+              <Card.Img variant="top" src="assets\necklace.jpg" id="access" />
               <Card.Body>
-                <Card.Title>other</Card.Title>
+                <Card.Title>Necklace</Card.Title>
                 <Card.Text>
                   {" "}
                   Gemstones and similar materials such as amber and coral,

@@ -6,7 +6,7 @@ import "../bootstrap.min.css";
 const HomeScreen = () => {
   return (
     <div classNameName="App">
-      <div className="navigation">
+      <div className="navigation" style={{ position: "sticky", top: 0 }}>
         <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-success">
           <div className="container-fluid">
             <button
@@ -27,8 +27,8 @@ const HomeScreen = () => {
                   className="nav-item"
                   style={{ marginLeft: "8rem", marginRight: "2rem" }}
                 >
-                  <a className="nav-link active" href="#necklace">
-                    Necklaces
+                  <a className="nav-link active" href="#other">
+                    others
                     <span className="visually-hidden">(current)</span>
                   </a>
                 </li>
@@ -60,55 +60,81 @@ const HomeScreen = () => {
       <Container className="py-3 my-4">
         <Row>
           <strong>
-            <h2 className="mt-2 mb-4">Necklaces</h2>
+            <h2 className="mt-2 mb-4">others</h2>
           </strong>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="necklace" />
+              <Card.Img variant="top" src="assets\other.jpg" id="other" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
-                <Button className="bg-light text-dark">Read More</Button>
-                <Button className="bg-primary">Buy Now</Button>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="necklace" />
+              <Card.Img variant="top" src="assets\other.jpg" id="other" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="ring" />
+              <Card.Img variant="top" src="assets\other.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="ring" />
+              <Card.Img variant="top" src="assets\other.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -122,11 +148,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\ring.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -134,11 +167,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\ring.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -146,11 +186,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\ring.jpg" id="ring" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -165,11 +212,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -177,11 +231,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -189,11 +250,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -201,11 +269,18 @@ const HomeScreen = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="assets\bracelet.jpg" id="bracelet" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>{" "}
           </Col>
@@ -218,37 +293,121 @@ const HomeScreen = () => {
         <Row>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="access" />
+              <Card.Img variant="top" src="assets\other.jpg" id="access" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>{" "}
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="access" />
+              <Card.Img variant="top" src="assets\other.jpg" id="access" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="assets\necklace.jpg" id="access" />
+              <Card.Img variant="top" src="assets\other.jpg" id="access" />
               <Card.Body>
-                <Card.Title>Necklace</Card.Title>
+                <Card.Title>other</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the Necklace and make up
-                  the bulk of the card's content.
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
                 </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <strong>
+          <h2 className="mt-4 mb-4">Others</h2>
+        </strong>
+
+        <Row>
+          <Col>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src="assets\other.jpg" id="access" />
+              <Card.Body>
+                <Card.Title>other</Card.Title>
+                <Card.Text>
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
+                </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>{" "}
+          <Col>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src="assets\other.jpg" id="access" />
+              <Card.Body>
+                <Card.Title>other</Card.Title>
+                <Card.Text>
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
+                </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src="assets\other.jpg" id="access" />
+              <Card.Body>
+                <Card.Title>other</Card.Title>
+                <Card.Text>
+                  {" "}
+                  Gemstones and similar materials such as amber and coral,
+                  precious metals, beads, and shells have been widely used
+                </Card.Text>
+                <Button className="bg-light text-dark" size="md">
+                  Read More
+                </Button>
+                <Button className="bg-primary" size="md">
+                  Buy Now
+                </Button>
               </Card.Body>
             </Card>
           </Col>
